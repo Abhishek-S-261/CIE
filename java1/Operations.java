@@ -5,6 +5,7 @@ public class Operations {
     static double y = 20;
 
     static double sum = x + y;
+    
     static double average = (x + y) / 2;
 
     
@@ -21,6 +22,8 @@ public class Operations {
     public static void main(String[] args) {
         System.out.println("Sum is " + sum);
         System.out.println("Average is " + average);
+        
+
         System.out.println("Minimum is " + Minimum());
         System.out.println("Maximum is " + Maximum());
     }
